@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FirstAndroidPJ</string>
+    <string-array name="tinh">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="country">
+        <item>Malaysia</item>
+        <item>Vietnam</item>
+        <item>Thailand</item>
+        <item>Singapore</item>
+    </string-array>
+    <string-array name="university">
+        <item>PTIT</item>
+        <item>HANU</item>
+        <item>HUST</item>
+        <item>FPT</item>
+    </string-array>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/stamfordbridge" />
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="alulu"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/imgView"
+        android:layout_alignTop="@id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/txtdiachi"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:text="alulu"
+        android:textStyle="bold"
+        android:layout_toRightOf="@id/imgView"
+        android:layout_below="@id/txtname"
+        android:layout_alignLeft="@id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
